@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainLayout.Land">
+
+    <TextView
+        style="@style/TxtLastOp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        style="@style/TextBox"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_sqrt"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_sqrt"
+            android:tag="sqrt"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_e"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_e"
+            android:tag="E"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_1"
+            android:tag="1"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_2"
+            android:tag="2"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_3"
+            android:tag="3"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_mul"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_mul"
+            android:tag="*"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_add"
+            android:tag="+"
+            android:onClick="buttonPress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_percent"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_percent"
+            android:tag="%"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_inv"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_inv"
+            android:tag="inv"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_4"
+            android:tag="4"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_5"
+            android:tag="5"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_6"
+            android:tag="6"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_div"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_div"
+            android:tag="/"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_sub"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_sub"
+            android:tag="-"
+            android:onClick="buttonPress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_dot"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_dot"
+            android:tag="."
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_7"
+            android:tag="7"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_8"
+            android:tag="8"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_9"
+            android:tag="9"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/Buttons"
+            android:text="@string/btn_txt_0"
+            android:tag="0"
+            android:onClick="buttonPress" />
+
+        <Button
+            android:id="@+id/btn_equal"
+            style="@style/Buttons.NoNum"
+            android:text="@string/btn_txt_equal"
+            android:tag="equal"
+            android:onClick="buttonPress" />
+    </LinearLayout>
+
+</LinearLayout>

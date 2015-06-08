@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_light_blue">#FF33B5E5</color>
+    <color name="holo_dark_blue">#FF0099CC</color>
+    <color name="main_background">#FFDEDEDE</color>
+    <color name="translucent_black">#88000000</color>
+</resources>

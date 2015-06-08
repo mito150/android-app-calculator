@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:HoloCalc="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnu_back"
+        android:title="@string/btn_txt_back"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_revert"
+        HoloCalc:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mnu_clr"
+        android:title="@string/btn_txt_clr"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_delete"
+        HoloCalc:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mnu_about"
+        android:title="@string/about_activity"
+        android:orderInCategory="5"
+        android:icon="@android:drawable/ic_menu_info_details"
+        HoloCalc:showAsAction="never" />
+</menu>

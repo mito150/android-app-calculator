@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hCalc</string>
+    <string name="about_activity">About hCalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_txt_clr">CLR</string>
+    <string name="btn_txt_back">Back</string>
+    <string name="btn_txt_1" translatable="false">1</string>
+    <string name="btn_txt_2" translatable="false">2</string>
+    <string name="btn_txt_3" translatable="false">3</string>
+    <string name="btn_txt_4" translatable="false">4</string>
+    <string name="btn_txt_5" translatable="false">5</string>
+    <string name="btn_txt_6" translatable="false">6</string>
+    <string name="btn_txt_7" translatable="false">7</string>
+    <string name="btn_txt_8" translatable="false">8</string>
+    <string name="btn_txt_9" translatable="false">9</string>
+    <string name="btn_txt_dot" translatable="false">.</string>
+    <string name="btn_txt_0" translatable="false">0</string>
+    <string name="btn_txt_add" translatable="false">+</string>
+    <string name="btn_txt_sub" translatable="false">-</string>
+    <string name="btn_txt_mul" translatable="false">*</string>
+    <string name="btn_txt_div" translatable="false">/</string>
+    <string name="btn_txt_equal" translatable="false">=</string>
+    <string name="btn_txt_percent" translatable="false">%</string>
+    <string name="btn_txt_sqrt" translatable="false">√</string>
+    <string name="btn_txt_inv" translatable="false">+/-</string>
+    <string name="btn_txt_e" translatable="false">E</string>
+    <string name="about_txt1">hCalc is an approach to an Holo styled calculator app.</string>
+    <string name="about_txt2">hCalc uses its own parser for basic arithmetic expressions.</string>
+    <string name="about_txt3">More functionality will be added soon!</string>
+
+</resources>

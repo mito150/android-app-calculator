@@ -1,0 +1,67 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="AboutActivity" parent="android:Theme.Holo.Light.Dialog">
+
+    </style>
+
+    <style name="MainLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/main_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingRight">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="MainLayout.Land">
+        <item name="android:paddingLeft">@dimen/activity_vertical_margin_land</item>
+        <item name="android:paddingRight">@dimen/activity_vertical_margin_land</item>
+    </style>
+
+    <style name="Buttons">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/res_buttons_bg</item>
+        <item name="android:textColor">@color/translucent_black</item>
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Buttons.NoNum">
+        <item name="android:background">@drawable/res_buttonsno_bg</item>
+        <item name="android:textColor">@color/main_background</item>
+    </style>
+
+    <style name="TextBox">
+        <item name="android:background">@drawable/textbg</item>
+        <item name="android:textSize">@dimen/text_screen_calc</item>
+        <item name="android:textColor">@color/translucent_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/screen_to_pad</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/calc_screen_padding</item>
+        <item name="android:paddingLeft">@dimen/calc_screen_padding</item>
+    </style>
+
+    <style name="TxtLastOp">
+        <item name="android:textColor">@color/translucent_black</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginBottom">@dimen/screen_to_pad</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_lastop_size</item>
+        <item name="android:paddingRight">@dimen/calc_screen_padding</item>
+    </style>
+</resources>

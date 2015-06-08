@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="about_activity">Acerca de hCalc</string>
+    <string name="about_txt1">hCalc es un intento de aplicación de calculadora con estilo visual Holo.</string>
+    <string name="about_txt2">hCalc usa su propio parser para analizar las expresiones aritméticas básicas.</string>
+    <string name="about_txt3">Pronto iremos añadiendo más funcionalidades!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="app_name">hCalc</string>
+    <string name="btn_txt_back">Atrás</string>
+    <string name="btn_txt_clr">CLR</string>
+
+</resources>
